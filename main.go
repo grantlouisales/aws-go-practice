@@ -11,5 +11,5 @@ func main() {
 			"message": "MADE IT TO AWS!!!!",
 		})
 	})
-	router.Run() // listents on :8080
+	router.Run(":8081") // listents on :8080
 }
